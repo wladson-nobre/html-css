@@ -1,0 +1,18 @@
+GIT E GITHUB
+
+Repositório local / remoto
+
+local - computador
+remoto (push) - online
+
+guardar versões do trabalho como um jogo de rpg
+
+GIT é um gerenciador de versões que serão guardadas
+
+servidor > cliente
+
+GITHUB faz um backup dos seus arquivos na nuvem
+
+===== FAZER CURSO DE GIT E GITHUB NO CURSO EM VIDEOS ===== 
+
+

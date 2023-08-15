@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais testes com tamanhos de imagens</title>
+</head>
+<body>
+    <h1>Testes com tamanhos de imagens em HTML5</h1>
+    <h3>Teste 1: Método Invertido (usando min-width)</h3>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="gb1000.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="gb700.png" type="image/png">
+        <source media="(min-width: 500px)" srcset="gb300.png" type="image/png">
+        <img src="gbcropped.png" alt="gb flexível">
+    </picture>
+
+    <h3>Teste 2: Método Guanabara (usando max-width)</h3>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="gbcropped.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="gb300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="gb700.png" type="image/png">
+        <img src="gb1000.png" alt="gb flexível">
+    </picture>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? 🤯 Experimente ampliar o tamanho da sua janela para aproveitar melhor a experiência. &#x1F92F</p>
+
+    <h3>modo max-width</h3>
+    <picture>
+        <source media="(max-width: 700px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h3>modo min-width</h3>
+    <picture>
+        <source media="(min-width: 1000px)" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width: 700px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="imagem flexivel">
+    </picture>
+
+</body>
+</html>
