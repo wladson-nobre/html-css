@@ -1,0 +1,35 @@
+RECODE- desenvolvimento web basico
+
+----------------------------------------------------------------
+
+TRABALHANDO NO PC DE OUTROS
+
+Preciso de:
+-navegador (chrome)
+-visual studio code
+-git
+-github desktop
+
+1 - abre o github desktop
+2 - vá em file -> options -> accounts -> sign in (em github.com)
+3 - preencha login e senha
+4 - salve e seu repositório vai ser aberto
+
+	SE O GIT NÃO ESTIVER FUNCIONANDO PARA CLONAR:
+	1 - vá em file -> options -> git
+	2 - preecha login e email se não tiver preenchido
+	3 - salve
+
+5 - no menu principal, escolha o repositório e clique em salvar
+6 - Escolha onde salvar, crie uma pasta nova e clique em selecionar pasta
+7 - clique em clonar e o processo vai começar
+8 - faça suas alterações, commit, salve no github
+9 - para sair, fecha tudo menos o github, vá em repositorio -> remove 
+10 - na janela de remover repositorio, selecione mover pra lixeira e remover
+11 - ainda no github, vá em file -> options -> sign out (em github.com)
+12 - ainda em options -> git -> selecione e apague nome, email e salve
+13 - por fim, feche o github desktop e esvazie a lixeira do computador para eliminar seus arquivos completamente do pc alheio
+
+----------------------------------------------------------------
+
+Para maior segurança, veja o video de segurança do curso de git e github do curso em video para instalar um app que vai pedir além de usuario e senha, uma autenticação direto no seu celular. Isso vai prevenir que sua conta seja acessada por terceiros.
