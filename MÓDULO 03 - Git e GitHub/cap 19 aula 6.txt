@@ -1,0 +1,6 @@
+background-attachment: scroll (rolagem), fixed (fixo), 
+
+shorthand para background:
+ordem
+
+COLOR > IMAGE > POSITION > REPEAT > SIZE > ATTACHMENT
