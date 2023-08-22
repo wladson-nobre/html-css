@@ -1,0 +1,17 @@
+A imagem se repetirá automaticamente, em seu tamanho padrão;
+
+
+Definindo um tamanho para imagem:
+
+	background-size: 100px 100px;
+
+Repetição de imagem: (a partir do canto superior direito)
+
+	background-repeat:     no-repeat;       -> sem repetição (apenas 1 imagem)
+				                repeat-x;	         -> repetição na horizontal
+				                repeat-y	         -> repetição na vertical
+
+
+CAP 19 AULA 4
+21/08/2023 (22:08-22:44)
+
