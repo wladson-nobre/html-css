@@ -31,12 +31,34 @@
             background-image: url('imagens/pattern003.png');
         }
 
+        div.mini {
+            display: inline-flexbox;
+            border: solid black;
+            border-radius: 40px;
+            width: 80px;
+            height: 80px;
+            margin: 12px auto;        
+        }
+
+        div#m1 {
+            background-color: rgba(0, 0, 255, 0.523);
+        }
+
+        div#m2 {
+            background-color: blue;
+        }
+
+        div#m3 {
+            background-color: darkblue;
+        }
 
     </style>
 </head>
 <body>
     <div class="quadrado" id="q1">
-
+        <div class="mini" id="m1"></div>
+        <div class="mini" id="m2"></div>
+        <div class="mini" id="m3"></div>
     </div>
     <div class="quadrado" id="q2">
         
@@ -44,7 +66,6 @@
     <div class="quadrado" id="q3">
         
     </div>
-
 
 </body>
 </html>
