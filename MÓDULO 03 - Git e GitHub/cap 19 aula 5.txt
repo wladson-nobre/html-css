@@ -1,0 +1,1 @@
+background-size: auto, contain (100% da imagem sem cortar), cover (cobre a tela inteira fazendo os cortes necessarios), em px
