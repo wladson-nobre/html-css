@@ -1,0 +1,47 @@
+No vscode você pode criar 3 divs da classe quadrado digitando "div.quadrado*3" (sem aspas), existem outros tipos de atalhos do tipo conhecidos como Emmet Abreviations.
+
+pra quem já quiser criar as divs com as classes e ids segue:
+div.quadrado#q$*3
+
+o ponto é pra criar classe, a # é pra criar a ID, o $ é pra não repetir as ids e numera-las e o * é pra multiplicar nesse caso por 3
+
+----------------------
+
+Podemos usar imagens como Plano de Fundo em sites. Essas imagens de fundo podem ser inseridas como o background de div's e do body (que também é uma caixa). Dessa forma, basicamente todo elemento que é uma caixa, ou  que funciona como uma caixa, pode receber uma imagem de fundo. 
+
+Para fazer isso, usamos a Propriedade de Estilo " background-image ". Exemplo:
+
+div {
+         background-image: url(imagens/pattern003.png);
+     }
+
+Observação: No VALOR da função " url " da propriedade para colocarmos o link externo de uma imagem ao invés de um endereço local, mas cuidado, caso a imagem do link saia do ar, isso irá prejudicar o visual do seu site.
+
+De forma PADRÃO, imagens de fundo sempre serão carregadas no seu tamanho/dimensão total. Se a imagem de fundo que inserirmos tiver uma dimensão menor do que o respectivo elemento caixa, ela simplesmente será  introduzida de forma "repetida", em blocos, para conseguir cobrir toda a área. Já se essa imagem tiver uma dimensão muito grande para o elemento caixa, veremos apenas um pedaço da mesma.
+
+Uma imagem carregada como background (imagem de fundo), NÃO faz parte do seu conteúdo em si... Ela é simplesmente uma imagem que está sendo exibida sem sentido semântico, unicamente para fins visuais e de design.
+
+Lembre-se, muito cuidado com o tamanho das imagens de fundo que você inserir (peso do arquivo - KB, MB), se você trabalhar com imagens em resolução muito alta o seu site irá ficar lento. Então ajuste a resolução, peso do arquivo e suas medidas de forma que não prejudique o carregamento do seu site. Caso contrário ele não será valorizado pelos principais mecanismos de busca.
+
+--------
+
+Colocando uma imagem de fundo no seu site
+
+	background-image: url('   ');
+
+Ex:	body {
+            	background-image: url('imagens/wallpaper001.jpg');
+        	}
+
+Com cor sólida:
+
+            	background-color: skyblue;
+
+Com gradiente:
+
+            	background-image: linear-gradient(to bottom, yellow, red);
+
+Com url:
+
+            	background-image: url('link do local ou site');
+
