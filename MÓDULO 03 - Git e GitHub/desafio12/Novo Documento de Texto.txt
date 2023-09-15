@@ -1,7 +1,0 @@
-alt + clique para fazer ações repetidas de uma só vez
-
-text-transform: uppercase;	(tudo em maiusculo)
-
-ou 
-
-font-variant: small-caps; 	(tudo em maiusculo mas as iniciais são maiores)
