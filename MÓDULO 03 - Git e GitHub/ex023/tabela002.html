@@ -11,11 +11,19 @@
 
         table {
             width: 500px;
+            border-collapse: collapse;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         thead {
@@ -29,12 +37,19 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num">210.347.125</td>
+            </tr>
+        </tfoot>
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -49,12 +64,6 @@
                 <td>17.264.943</td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <th>Total de Habitantes</th>
-                <td>0000</td>
-            </tr>
-        </tfoot>
     </table>
 </body>
 </html>
